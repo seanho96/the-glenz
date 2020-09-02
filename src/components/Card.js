@@ -8,7 +8,7 @@ function Card() {
 
   const [data = [], setData] = useState();
 
-  useEffect(async () => {
+  const getData = async function fetchData() {
     const apiUrl =
       'http://staging.digitalsymphony.it/frontendtest/product/read.php';
 
@@ -16,13 +16,17 @@ function Card() {
       const fetchedData = response.data.records;
       setData([...fetchedData]);
     });
+  };
+
+  useEffect(() => {
+    getData();
   }, []);
 
   return (
     <div className="Card" id="Card">
       <div className="container mt-2">
         <div className="row">
-          {data.map((record) => {
+          {data?.map((record) => {
             return (
               <div className="card-container">
                 {record.id === '1' ? (
