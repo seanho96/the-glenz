@@ -1,14 +1,28 @@
 import React from 'react';
-import { useStateValue } from '../StateProvider';
+// import { useStateValue } from '../StateProvider';
+import { useEffect, useState } from 'react';
+import axios from 'axios';
 
 function Card() {
-  const [{ records }] = useStateValue();
+  // const [{ records }] = useStateValue();
+
+  const [data = [], setData] = useState();
+
+  useEffect(async () => {
+    const apiUrl =
+      'http://staging.digitalsymphony.it/frontendtest/product/read.php';
+
+    await axios.get(apiUrl).then((response) => {
+      const fetchedData = response.data.records;
+      setData([...fetchedData]);
+    });
+  }, []);
 
   return (
     <div className="Card" id="Card">
       <div className="container mt-2">
         <div className="row">
-          {records.map((record) => {
+          {data.map((record) => {
             return (
               <div className="card-container">
                 {record.id === '1' ? (

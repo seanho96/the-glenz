@@ -1,6 +1,5 @@
 import React from 'react';
 import logo from '../assets/logo/logo_sb.png';
-import mail from '../assets/icons/mail.png';
 
 function Contact() {
   return (
@@ -96,6 +95,7 @@ function Contact() {
               <img
                 src="./img/awards-crop.png"
                 className="img-responsive center-block"
+                alt="award"
               ></img>
             </div>
           </div>
@@ -112,7 +112,7 @@ function Contact() {
               <p className="text-right">Developed by</p>
             </div>
             <div className="col-md-4">
-              <img src={logo}></img>
+              <img src={logo} alt="logo"></img>
             </div>
           </div>
         </div>

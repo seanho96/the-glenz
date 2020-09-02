@@ -9,12 +9,7 @@ function WhyUs() {
           <h3>Why Us?</h3>
           <h1>A Perfect Investment & Upgrade</h1>
         </div>
-        <Card
-          title="Location"
-          desc="The Glenz is set in a prime location with
-convenient accessibility to major highways."
-          img="../img/alt-landing-location.jpg"
-        />
+        <Card />
       </div>
     </div>
   );

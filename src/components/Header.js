@@ -8,7 +8,7 @@ function Header() {
           <div className="overlay">
             <div className="container">
               <div className="row">
-                <div className="col-sm-4 col-sm-offset-7 intro-text">
+                <div className="col-md-4 col-md-offset-7 intro-text">
                   <h1>
                     Glenmarie’s First Transit Oriented Development
                     <span></span>
