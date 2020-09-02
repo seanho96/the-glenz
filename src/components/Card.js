@@ -8,9 +8,9 @@ function Card() {
 
   const [data = [], setData] = useState();
 
-  const getData = async function fetchData() {
+  const getData = async () => {
     const apiUrl =
-      'http://staging.digitalsymphony.it/frontendtest/product/read.php';
+      'https://staging.digitalsymphony.it/frontendtest/product/read.php';
 
     await axios.get(apiUrl).then((response) => {
       const fetchedData = response.data.records;
