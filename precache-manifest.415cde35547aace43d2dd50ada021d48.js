@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "27e05c1471228ab6e6785b96c18bc324",
+    "revision": "b061b385b4a48959249a269e7cab4ce0",
     "url": "/the-glenz/index.html"
   },
   {
-    "revision": "d4397527dd65aec4f2c4",
+    "revision": "fb6e5556e3e146fb76db",
     "url": "/the-glenz/static/css/main.2905a80e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/the-glenz/static/js/2.d7a9d640.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d4397527dd65aec4f2c4",
-    "url": "/the-glenz/static/js/main.c667a8c4.chunk.js"
+    "revision": "fb6e5556e3e146fb76db",
+    "url": "/the-glenz/static/js/main.1fd833b0.chunk.js"
   },
   {
     "revision": "148f94ade0cffde9e57c",
