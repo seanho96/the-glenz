@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/the-glenz/precache-manifest.415cde35547aace43d2dd50ada021d48.js"
+  "/the-glenz/precache-manifest.ae11cdf8ad148d8ac039091456904431.js"
 );
 
 self.addEventListener('message', (event) => {
