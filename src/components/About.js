@@ -13,7 +13,7 @@ function About() {
               alt=""
             />{' '}
           </div>
-          <div className="col-xs-10 col-md-4 about-overlay">
+          <div className="about-overlay">
             <div className="about-text">
               <h3>About Us</h3>
               <h1>Strategically Located</h1>
@@ -27,24 +27,6 @@ function About() {
               </a>{' '}
             </div>
           </div>
-          {/* <div className="col-xs-12 col-md-4">
-            <div className="about-text">
-              <h2>About Us</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
-                molestias!
-              </p>
-              <h3>Why Choose Us?</h3>
-              <div className="list-style">
-                <div className="col-lg-6 col-sm-6 col-xs-12">
-                  <ul>Lorem ipsum dolor sit amet.</ul>
-                </div>
-                <div className="col-lg-6 col-sm-6 col-xs-12">
-                  <ul>Lorem ipsum dolor sit amet.</ul>
-                </div>
-              </div>
-            </div>
-          </div> */}
         </div>
       </div>
     </div>
