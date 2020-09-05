@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/the-glenz/static/css/main.2905a80e.chunk.css",
-    "main.js": "/the-glenz/static/js/main.b2c16742.chunk.js",
-    "main.js.map": "/the-glenz/static/js/main.b2c16742.chunk.js.map",
+    "main.js": "/the-glenz/static/js/main.5c97caee.chunk.js",
+    "main.js.map": "/the-glenz/static/js/main.5c97caee.chunk.js.map",
     "runtime-main.js": "/the-glenz/static/js/runtime-main.ea389aee.js",
     "runtime-main.js.map": "/the-glenz/static/js/runtime-main.ea389aee.js.map",
     "static/js/2.d7a9d640.chunk.js": "/the-glenz/static/js/2.d7a9d640.chunk.js",
     "static/js/2.d7a9d640.chunk.js.map": "/the-glenz/static/js/2.d7a9d640.chunk.js.map",
     "index.html": "/the-glenz/index.html",
-    "precache-manifest.ae11cdf8ad148d8ac039091456904431.js": "/the-glenz/precache-manifest.ae11cdf8ad148d8ac039091456904431.js",
+    "precache-manifest.0c4884ed22733184bf6c73a12f450652.js": "/the-glenz/precache-manifest.0c4884ed22733184bf6c73a12f450652.js",
     "service-worker.js": "/the-glenz/service-worker.js",
     "static/css/main.2905a80e.chunk.css.map": "/the-glenz/static/css/main.2905a80e.chunk.css.map",
     "static/js/2.d7a9d640.chunk.js.LICENSE.txt": "/the-glenz/static/js/2.d7a9d640.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.ea389aee.js",
     "static/js/2.d7a9d640.chunk.js",
     "static/css/main.2905a80e.chunk.css",
-    "static/js/main.b2c16742.chunk.js"
+    "static/js/main.5c97caee.chunk.js"
   ]
 }
